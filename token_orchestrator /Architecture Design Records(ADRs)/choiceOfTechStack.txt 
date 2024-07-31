@@ -1,0 +1,14 @@
+Elixir VS Node Vs Python
+========================
+In case of Python and elixir, we need to handle concurrency with locks(distributed locks with Redis) which need extra efforts.
+In case of Node, since it is single threaded it will meet the thread safety and maintains singularity. And with express, making routes are quite easier.
+
+DataStructure/ Stack:
+===============
+** map: We can easily fetch and insert keys in map but in worst case it might take O(n).
+
+** heap: The search operation here will in O(logn) complexity if sorted.
+
+** Redis with normal key-val pair and sorted set: It will meet the rquirements.
+zAdd, zRangeByScore and zRem will solve in O(logn). We can limit offset count by using in LIMIT in zRangeByScore so, that it's complexity being controlled.
+and normal set, get on key-value pairs will be O(1);

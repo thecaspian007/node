@@ -1,0 +1,6 @@
+Edge cases:
+1) Do we need to delete the locked key?
+2) we have a 5 min timer on the key expiry, If any key is retrieved at 4 mins 50 seconds, then it will be locked for extra 60 seconds, if we have to keep-alive then how will we adjust the time frame?
+3) How many different redis keys should we maintain?
+
+ 

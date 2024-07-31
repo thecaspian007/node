@@ -1,0 +1,11 @@
+** Create API Key: O(log n) - Adding in the sorted set(zAdd).
+
+** Get API Key:  O(1). Just fetching from key-value pair.
+
+** Retrieve API Key: O(k) (where k is the number of keys in the score range)
+
+**Unblock API Key: O(1) :  Just normal set, exists and delete on key-value pair. 
+
+**Keep Alive API Key: O(log n) : Adding in the sorted set. 
+
+**Delete API Key: O(log n) as deleting from the sorted set(zRem ).
