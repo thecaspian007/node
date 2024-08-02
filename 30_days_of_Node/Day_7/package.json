@@ -1,0 +1,21 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "ejs": "^2.5.7",
+    "express-fileupload": "^0.1.4",
+    "nodemailer": "^4.1.0",
+    "natural": "^0.5.4",
+    "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@rajatgarian",
+  "license": "ISC"
+}
